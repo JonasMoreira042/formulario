@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pesquisa de Opinião</title>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="estilo.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  </head>
+  <body>
+    <center>
+    <div id="conteudo">
+		<center>
+			<img src="imgs/logo-site.png"/>
+		</center>
+		<hr/>
+		<br/>
+		
+		<!--Conteúdo do formulário -->
+		<P>Responda os formulários de pesquisade opinião</P><br/><br/>
+		
+		<!--Enviar os dadospreencidos para uma págena chamada "enviar dados.php"-->
+		<form method="post" action="enviar-dados-php">
+		
+		Nome:<br/>
+		<input id="txtnome" type="text" required/><br/><br/>
+		Sexo:<br/>
+		
+		<input type="radio" name="text" id="sexo" value="masculino"
+		checked/>Msculino<br/>
+		
+		<input type="radio" name="sexo" id="sexo"
+		value="feminino"/>Feminino<br/>
+		  
+		  Quais suas áreas de interesse? <br/><br/>
+		<input type="checkbox" name="chkturismo"
+		value="turismo"/>Turismo<br/>
+		
+		<input type="checkbox" name="chknegocios"
+		value="negocios"/>Negócios<br/>
+		
+		<input type="checkbox" name="chktecnologia"
+		value="tecnologia"/>Tecnologia<br/><br/>
+		   
+		   Selecione o seu estado<br/><br/>
+		<select id="estado">
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="SP" selected>São Paulo</option>
+		<option value="MG">Minas Geras</option>
+		<option value="ES">Espirito Santo</option>
+		<select>
+		<br/><br/>
+		   
+		   Escreva aqui as suas observações (opcional)<br/><br/>
+		<textarea id="observações"></textarea>
+		<br/><br/>
+		 <center>
+		  <input type="reset" value="Limpar">
+          <input type="submit" value="Enviar">		  
+		 </center>
+		
+		</form>
+		<br/><br/>
+		
+	<div>
+	</center>
+  </body>
+</html>

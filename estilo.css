@@ -1,0 +1,49 @@
+body
+{
+   font-family:'Verdana';
+   margin: 0px;
+   background-color: #F5F5F5;   
+}
+
+div
+{
+	background-color: #fff;
+	padding-left:10px;
+	padding-right:10px;
+	box-sizing: border-box;
+	width:95%;
+	max-width: 850px;
+	height: auto;
+	text-align:left;
+}
+
+input[Type=text]
+{
+	width:95%;
+	max-width:300px;
+	font-size:16px;
+	color:#bf360;
+	font-weight:bold;
+	text-transform:uppercase;	
+}	
+
+input[type=reset], input[type=submit] {
+	background-color:#ff5722;
+	color:#fff;
+	padding:10px;
+	border:10px;
+	font-weight:1px #ff5722 solid;
+	cursor:pointer;
+}
+
+select {
+	font-size:16px;
+}
+
+textarea{
+	font-family:verdana;
+	font-size:15px;
+	width:100%;
+	max-width:400px;
+	min-height:100px;
+}
